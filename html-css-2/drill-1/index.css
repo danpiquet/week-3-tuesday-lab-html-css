@@ -1,0 +1,35 @@
+/* medium grey - #D8D8D8 */
+/* light grey - ##EFEFEF */
+/* dark grey - #444444 */
+/* blackish - #222222 */
+
+
+
+#dark-grey {
+    width: 100vw;
+    height: 100px;
+    background-color: #444444;
+}
+body {
+    background-color: #d8d8d8;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+body > div {
+    width: 60vw;
+}
+#light-grey {
+    background-color: #efefef;
+    height: 100vh;
+}
+#blackish {
+    background-color: #222222;
+    height: 5vh;
+    position: sticky;
+    bottom: 0px;
+}

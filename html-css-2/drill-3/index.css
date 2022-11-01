@@ -1,0 +1,76 @@
+/* blue - #5B8FDC
+mint green - #7BE0C3
+green - #C2E791
+yellow - #F5E752 */
+
+#grey-header {
+    background-color: #d8d8d8;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    /* position: fixed; */
+    align-items: center;
+}
+body {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    /* position: fixed; */
+}
+#blue-square {
+    background-color: #5B8FDC;
+    width: 36px;
+    height: 36px;
+    margin-left: 12px;
+}
+#text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .5em;
+    width: 90%;
+    margin: 50px;
+    
+}
+#main-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#blue {
+    width: 100vw;
+    height: 25vh;
+    background-color: #5B8FDC;
+}
+#mint-green {
+    width: 100vw;
+    height: 25vh;
+    background-color: #7BE0C3;
+}
+#green {
+    width: 100vw;
+    height: 25vh;
+    background-color: #C2E791;
+}
+#yellow {
+    width: 100vw;
+    height: 25vh;
+    background-color: #F5E752;
+}
+#question-mark {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 5px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#q-text {
+    color: #ffffff;
+    z-index: 1;
+    font-family: 'Times New Roman', Times, serif;
+}
